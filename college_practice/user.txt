@@ -1,0 +1,13 @@
+def supply(request):
+    
+    if request.method=="POST":
+        name = request.POST("name")
+        email = request.POST("email")
+        phone = request.POST("phone")
+        address = request.POST("address")
+        supply = request.POST("supply")
+
+        print("Form saved") 
+      
+    return render(request,"supply.html")    
+    

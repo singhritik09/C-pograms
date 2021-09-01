@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1621240350 source:c:\users\rupeeka\desktop\college_practice\main.c
+	<stdio.h>
+	<stdlib.h>
+
+1621689255 source:c:\users\rupeeka\desktop\college_practice\1sr.c
+	<stdio.h>
+	<math.h>
+
+1625412544 source:c:\users\rupeeka\desktop\college_practice\ascii_value.c
+	<stdio.h>
+	<conio.h>
+	<stdlib.h>
+
+1621689454 source:c:\users\rupeeka\desktop\college_practice\even_odd.c
+	<stdio.h>
+	<math.h>
+
+1621697275 source:c:\users\rupeeka\desktop\college_practice\untitled1.c
+	<stdio.h>
+	<math.h>
+

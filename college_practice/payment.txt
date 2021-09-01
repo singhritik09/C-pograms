@@ -1,0 +1,53 @@
+*******************************************************************************/
+
+#include<stdio.h>
+#include <ctype.h>
+
+int main(){
+    double salary,total;
+    char gender;
+    char f,m;
+    
+    
+    printf("Enter the gender of worker: ");
+    scanf("%c",&gender);
+    if (isalpha (gender)==f){
+        printf("Enter salary:\n");
+        scanf("%lf",&salary);
+        
+        if (salary<10000){
+            total = (0.1*salary +0.02* salary + salary);
+            printf("Total:%lf",&total);
+        }
+        else{
+            total = 0.1*salary + salary;
+            printf("Total:%lf",&total);
+        
+        }
+        return 0;
+    
+    }
+    
+    else if (isalpha(gender) ==m){
+        printf("Enter salary:\n");
+        scanf("%lf",&salary);
+        if (salary<10000){
+            total = 0.05*salary + 0.02*salary + salary;
+            printf("Total=%lf",&total);
+        }
+        else{
+            total = 0.05*salary + salary;
+            printf("Total =%lf",&total);
+            
+        }
+        return 0;
+        
+    }
+    
+    else{
+        printf("Invalid input")
+    }
+    
+    
+    return 0;
+}
